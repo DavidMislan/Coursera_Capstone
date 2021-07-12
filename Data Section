@@ -1,0 +1,13 @@
+DESCRIPTION OF THE DATA
+Most of the data used to analyze the towns of Camden County will come from Foursquare’s Places API. Specifically, this analysis will collect and use information on Camden County restaurants; bars and clubs; and public transportation.
+
+Additional data (mostly geodata) will be used as well. These data will be collected via a Python-based geocoding client (e.g., Geopy). 
+
+HOW THE DATA WILL BE USED TO SOLVE THE PROBLEM
+This project will proceed as follows:
+1.	Scrape the web (Wikipedia) for a list of Camden County municipalities and postal (zip) codes.
+2.	Find geographic coordinates for each town and segment them on a county map.
+3.	Leverage Foursquare’s Places API to assemble venue data organized by segment.
+4.	Use clustering techniques to assess the suitability of each municipality for the new business.
+5.	Visualize the results on a series of interactive maps.
+6.	Present a list of most suitable municipalities to the investors.
